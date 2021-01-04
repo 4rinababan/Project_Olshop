@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^$ "https\:\/\/www\.otomatisin\.com\/add-users\.php" [R=302,L]
+RewriteCond %{HTTP_HOST} ^www\.otomatisin\.com$
+RewriteRule ^$ "http\:\/\/www\.otomatisin\.com\/add-users\.php" [R=302,L]
